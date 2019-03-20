@@ -68,8 +68,8 @@ public class ActivityContacto extends AppCompatActivity {
      * @return void
      * */
     public void setUpUIInteraction() {
-        correo = "saulnoelm@gmail.com";
-        contrasenia = "noeru1982";
+        correo = "";//Tu correo
+        contrasenia = "";//Tu contrasenia
 
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
